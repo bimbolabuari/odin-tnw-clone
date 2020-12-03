@@ -1,2 +1,4 @@
 @import './reset.css';
-@import './styles.css'
+@import './styles.css';
+@import './screens/medium-screen.css';
+@import './screens/large-screen.css';
