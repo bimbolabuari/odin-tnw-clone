@@ -3,22 +3,27 @@
     /* display: contents; */
     display: block;
     padding-left: 106px;
+
     /* position: absolute; */
     height: 80px;
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
   }
+
   .clicky-container {
     width: 32.555555%;
     margin-top: 10px;
     display: inline-block;
   }
+
   .first-header-container {
     background: #131313;
+
     /* display: block; */
     font-size: 13px;
     font-weight: 500;
     line-height: 32px;
     max-height: 32px;
+
     /* position: relative; */
     display: flex;
     justify-content: space-between;
@@ -30,9 +35,11 @@
     justify-content: flex-start;
     width: 100%;
   }
+
   .first-header-ul p:first-child {
     margin-left: 20px;
   }
+
   .first-header-para {
     float: left;
     margin-left: 12px;
@@ -75,7 +82,7 @@
   .image-container {
     width: 100%;
     display: inline-block;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .headline-section {
@@ -91,24 +98,28 @@
 
   .inline-block-image {
     width: 100%;
+
     /* height: 60px; */
   }
 
   .inline-block-image-container {
     /* width: 25%; */
+
     /* display: inline-block; */
     width: 100%;
+
     /* height: 50%; */
     display: block;
   }
 
   .inline-block-container {
     width: 100%;
-    padding: 0px;
+    padding: 0;
   }
 
   .inline-block-section {
     width: 100%;
+
     /* height: 200px; */
     height: auto;
   }
@@ -119,13 +130,14 @@
 
   .first-footer-container {
     background: #131313;
+
     /* padding: 2.5em 0; */
-    padding: 0em;
+    padding: 0;
   }
 
   .first-footer-wrapper {
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
   }
 
   .footer-media {
@@ -134,10 +146,6 @@
 
   .footer-list-ul {
     padding-bottom: 20px;
-  }
-
-  .footer-copyright-wrapper {
-    display: inline-block;
   }
 
   .footer-copyright-list {
@@ -149,9 +157,8 @@
   }
 
   .tech-section {
-    min-height: 0vh;
+    min-height: 0;
     height: 100px;
-
     height: 100%;
     width: 66.66666%;
   }
@@ -160,18 +167,16 @@
     height: 48%;
     width: 32.3333%;
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 2px;
-    min-height: auto;
   }
 
   .tech-section-c {
     height: 48%;
     width: 32.3333%;
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 165px;
-    min-height: auto;
   }
 
   .nav-logo {
@@ -183,15 +188,6 @@
   .nav-section {
     display: block;
     position: absolute;
-  }
-
-  .nav-section-list {
-    float: left;
-    position: relative;
-  }
-
-  .nav-section-list a:first-child {
-    padding-left: 20px;
   }
 
   .nav-section-list a {
@@ -206,8 +202,17 @@
     font-size: 13px;
   }
 
+  .nav-section-list a:first-child {
+    padding-left: 20px;
+  }
+
+  .nav-section-list {
+    float: left;
+    position: relative;
+  }
+
   .header-img {
-   width: 100px;
-   height: 70px;
-}
+    width: 100px;
+    height: 70px;
+  }
 }
