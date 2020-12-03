@@ -1,0 +1,154 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+    .header-container {
+       padding-left: 106px;
+       position: absolute;
+       height: 80px;
+       box-shadow: 0 0 32px rgba(0,0,0,.15);
+    }
+    .clicky-container {
+       width: 32.555555%;
+       margin-top: 10px;
+       display: inline-block;
+    }
+    .first-header-container {
+       background: #131313;
+       display: block;
+       font-size: 13px;
+       font-weight: 500;
+       line-height: 32px;
+       max-height: 32px;
+       position: relative;
+       z-index: 2;
+    }
+    
+    .first-header-container li:first-child {
+       margin-left: 20px;
+    }
+    
+    .first-header-anchor {
+       color: #fff;
+       font-size: 13px;
+    }
+    
+    
+    .ul {
+       width: 48%;
+       display: inline-block;
+    }
+    
+    .inline-block {
+       width: 100%;
+       display: inline-block;
+    
+    }
+    
+    .image {
+       width: 100%;
+       height: auto;
+    }
+    
+    .image-container {
+       width: 100%;
+       display: inline-block;
+       margin-right:0px;
+    }
+    
+    .headline-section {
+       display: inline-block;
+       max-width: 32.555%;
+       padding: 10px;
+    
+    }
+    
+    .inline-block-li {
+       width: 32.5555%;
+       display: inline-block;
+    }
+    
+    .inline-block-image {
+       width: 100%;
+       /* height: 60px; */
+    }
+    
+    .inline-block-image-container {
+       /* width: 25%; */
+       /* display: inline-block; */
+       width: 100%;
+       /* height: 50%; */
+       display: block;
+    }
+    
+    .inline-block-container {
+       width: 100%;
+       padding: 0px;
+    }
+    
+    .inline-block-section {
+       width: 100%;
+       /* height: 200px; */
+       height: auto;
+    }
+    
+    .footer-copyright-wrapper {
+       display: inline-block;
+    }
+    
+    .first-footer-container {
+       background: #131313;
+       /* padding: 2.5em 0; */
+       padding: 0em;
+    }
+    
+    .first-footer-wrapper {
+       margin: 0 auto;
+       padding: 0px
+    }
+    
+    .footer-media {
+       /* margin-bottom: 1.5em; */
+    }
+    
+    .footer-list-ul {
+       padding-bottom: 20px;
+    }
+    
+    .footer-copyright-wrapper {
+       display: inline-block;
+    }
+    
+    .footer-copyright-list {
+       display: inline-block;
+    }
+    
+    .first-article {
+       height: 60vh;
+    
+    }
+    
+    .tech-section {
+       min-height: 0vh;
+       height: 100px;
+    
+       height: 100%;
+       width: 66.66666%;
+    }
+    
+    .tech-section-b {
+       height: 48%;
+       width: 32.3333%;
+       position: absolute;
+       right: 0px;
+       top: 2px;
+       min-height: auto;
+    
+    }
+    
+    .tech-section-c {
+       height: 48%;
+       width: 32.3333%;
+       position: absolute;
+       right: 0px;
+       top: 165px;
+       min-height: auto;
+    }
+    }
