@@ -7,7 +7,8 @@
   width: 100%;
 }
 
-.header-container {
+.first-header-container,
+.second-header-container {
   display: none;
 }
 
@@ -18,11 +19,21 @@
 }
 
 .main-container {
-  padding-top: 10px;
   width: 99%;
+  margin: 0 auto;
 }
 
-.tech-section {
+.header-contaner {
+  position: fixed;
+}
+
+.nav-logo {
+  position: absolute;
+}
+
+.tech-section,
+.tech-section-b,
+.tech-section-c {
   min-height: 30vh;
   background-image: url("../image/tnw-image-036.jpg");
   background-position: center;
@@ -31,18 +42,6 @@
   background-color: #6e6e6e;
   height: 100px;
   margin-bottom: 2%;
-}
-
-.tech-section-b,
-.tech-section-c {
-  min-height: 30vh;
-  background-image: url("../image/tnw1.png");
-  background-color: #6e6e6e;
-  height: 100px;
-  margin-bottom: 2%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .text-container {
@@ -157,11 +156,7 @@
 
 .clicky-image {
   width: 60px;
-  min-width: 60px;
-  max-width: 60px;
   height: 60px;
-  min-height: 60px;
-  max-height: 60px;
   margin: 10.6666666667px;
   position: absolute;
   top: 0;
@@ -248,38 +243,23 @@
 }
 
 .hard-fork-container-b {
-  background: transparent url(../image/tnw-image-014.jpg) no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: transparent url(../image/tnw-image-035.jpg) no-repeat;
 }
 
 .hard-fork-container-c {
-  background: transparent url(../image/tnw-image-016.png) no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: transparent url(../image/tnw-image-028.jpeg) no-repeat;
 }
 
 .hard-fork-container-d {
-  background: transparent url(../image/tnw-image-018.jpg) no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: transparent url(../image/tnw-image-013.jpg) no-repeat;
 }
 
 .hard-fork-container-e {
   background: transparent url(../image/tnw-image-020.png) no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hard-fork-container-f {
   background: transparent url(../image/tnw-image-022.png) no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hard-fork-container-g {
@@ -405,12 +385,16 @@
   font-size: 14px;
 }
 
+.semi-main-container {
+  margin: 0 20px;
+}
+
 .inline-block-section {
   width: 100%;
 }
 
 .inline-block-image-container {
-  width: 25%;
+  width: 17%;
   display: inline-block;
 }
 
