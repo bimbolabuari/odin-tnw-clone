@@ -49,6 +49,17 @@
     font-size: 13px;
   }
 
+  .headline-div {
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+  }
+
+  .news {
+    color: #fff;
+    font-size: 13px;
+  }
+
   .first-header-anchor:hover {
     color: rgba(255, 255, 255, 1);
   }
@@ -63,8 +74,10 @@
   }
 
   .ul {
-    width: 48%;
-    display: inline-block;
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-bottom: 24px;
+    padding: 10px;
   }
 
   .inline-block {
@@ -85,8 +98,13 @@
 
   .headline-section {
     display: inline-block;
-    max-width: 32.555%;
+    flex-basis: 32.33333333%;
+    max-width: 32.333333333%;
     padding: 10px;
+  }
+
+  .second-article {
+    margin-top: 40px;
   }
 
   .inline-block-li {
@@ -150,7 +168,7 @@
     grid-template-rows: repeat(2, 50%);
     grid-template-columns: repeat(3, 33%);
     grid-gap: 11px;
-    margin-top: 10px;
+    margin: 0 5px;
   }
 
   .tech-section {
