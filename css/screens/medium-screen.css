@@ -1,7 +1,7 @@
 
 .header-container {
   display: block;
-  padding-left: 106px;
+  padding-left: 100px;
   height: 80px;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
 }
@@ -107,6 +107,10 @@
   margin-top: 40px;
 }
 
+.second-header-container {
+  display: block;
+}
+
 .inline-block-li {
   width: 32%;
   display: inline-block;
@@ -202,6 +206,11 @@
   position: absolute;
 }
 
+.nav-section-list {
+  float: left;
+  position: relative;
+}
+
 .nav-section-list a {
   font-weight: 500;
   text-transform: uppercase;
@@ -210,21 +219,16 @@
   height: 48px;
   letter-spacing: 0.04em;
   line-height: 1;
-  padding: 18px 6px 0;
+  padding: 18px 2px 0;
   font-size: 13px;
+}
+
+.nav-section-list a:first-child {
+  padding-left: 10px;
 }
 
 .main-container {
   padding: 90px 0;
-}
-
-.nav-section-list a:first-child {
-  padding-left: 20px;
-}
-
-.nav-section-list {
-  float: left;
-  position: relative;
 }
 
 .header-img {
@@ -245,10 +249,6 @@
   transform: rotate(45deg);
 }
 
-.inline-block-header:hover {
-  color: red;
-}
-
 .percentage-off {
   font-size: 14px;
   font-weight: 700;
@@ -260,17 +260,6 @@
   width: 100%;
 }
 
-.svg {
-  display: block;
-  width: 45%;
-  margin: 20px;
-}
-
-.latest-deals:hover,
-.all-deals {
-  color: #000;
-}
-
 .header-first-article {
   font-size: 30px;
 }
@@ -280,7 +269,7 @@
 }
 
 .text-container {
-  padding: 8em 0.9em 0;
+  padding: 13em 0.9em 0;
 }
 
 .text-container2,
@@ -300,12 +289,4 @@
 .headline-first-article {
   font-size: 30px;
   font-weight: 900;
-}
-
-.header-headline-section:hover {
-  color: red;
-}
-
-.header-second-article:hover {
-  color: #000;
 }
