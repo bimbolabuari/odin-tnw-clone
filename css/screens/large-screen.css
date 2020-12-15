@@ -20,6 +20,12 @@
   display: none;
 }
 
+.svg {
+  display: block;
+  width: 45%;
+  margin: 20px;
+}
+
 .header-first-article {
   font-size: 50px;
 }
@@ -83,6 +89,11 @@
   width: 32.555555%;
   margin-top: 10px;
   display: inline-block;
+}
+
+.search {
+  font-size: 20px;
+  margin: 8px 20px;
 }
 
 .first-header-container {
@@ -210,7 +221,8 @@
 }
 
 .second-header-container {
-  display: block;
+  display: flex;
+  justify-content: space-between;
 }
 
 .headline-section {
@@ -244,7 +256,7 @@
 }
 
 .text-container {
-  padding: 15em 0.9em 0;
+  padding: 8em 0.9em 0;
 }
 
 .text-container2,
@@ -269,9 +281,8 @@
   font-size: 12px;
 }
 
-.nav-section {
+.nav-sections {
   display: block;
-  position: absolute;
 }
 
 .nav-section-list a {
@@ -302,6 +313,10 @@
 .header-img {
   width: 100px;
   height: 70px;
+}
+
+.bar {
+  display: none;
 }
 
 .deals-off {

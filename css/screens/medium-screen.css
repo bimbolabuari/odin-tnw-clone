@@ -107,6 +107,15 @@
   margin-top: 40px;
 }
 
+.search {
+  font-size: 20px;
+  margin: 8px 20px;
+}
+
+.svg {
+  display: none;
+}
+
 .second-header-container {
   display: block;
 }
@@ -201,9 +210,8 @@
   top: 0;
 }
 
-.nav-section {
+.nav-sections {
   display: block;
-  position: absolute;
 }
 
 .nav-section-list {
@@ -221,6 +229,10 @@
   line-height: 1;
   padding: 18px 2px 0;
   font-size: 13px;
+}
+
+.bar {
+  display: none;
 }
 
 .nav-section-list a:first-child {
@@ -269,7 +281,7 @@
 }
 
 .text-container {
-  padding: 13em 0.9em 0;
+  padding: 14em 0.9em 0;
 }
 
 .text-container2,
