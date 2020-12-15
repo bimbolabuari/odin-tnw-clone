@@ -1,34 +1,50 @@
-# Project Name
+# Building with Mobile First Responsive Design: [The Next Web](https://thenextweb.com/) clone
 
-> One paragraph statement about the project.
+This project is [an odin assignment](https://www.theodinproject.com/courses/html-and-css/lessons/building-with-responsive-design) about cloning the [next web page](https://thenextweb.com/) that demonstrates the knowledge of Semantic HTML, embedding images, CSS media query for responsiveness, CSS grid for layout, CSS flexbox properties also used for layout, CSS positioning such as absolute and fixed was used positioning elements,CSS transition property and also CSS float.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./image/tnw-app-screenshot.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+HTML
+
+- Semantic HTML
+- Img tags
+
+- CSS
+
+  - CSS Grid for effective layout
+  - CSS Flexbox for effective layout
+  - CSS Float
+  - CSS positioning
+  - Background properties
+  - CSS transition properties
+  - Display properties
+
+- Mark-down
+- [Prettier](https://prettier.io/) for code formatting
+- [Stylelint](https://stylelint.io/) for CSS linting
+- [HTML Validator](https://validator.w3.org/) and [Webhint](https://webhint.io/)
+- [Github Actions for workflow](https://github.com/features/actions)
+- [Netlify for deployment](https://app.netlify.com/)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/user/odin-tnw-clone.git
 
 ```
 
 - Install Dependencies
 
 ```bash
-npm run install
+npm  install
 ```
 
 To run StyleLint by itself, you may run the lint task:
@@ -68,11 +84,11 @@ npm run html-validator
 - [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
-## 👤 Author
+## 👤 Abimbola Buari Aminat
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@bimbolabuari](https://github.com/bimbolabuari)
+- Twitter: [@bimbolabuari](https://twitter.com/bimbolabuari)
+- Linkedin: [@bimbolabuari](https://www.linkedin.com/in/bimbolabuari)
 
 ## 🤝 Contributing
 
@@ -86,9 +102,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [The Next Web](https://thenextweb.com/)
+- [@bolah2009](https://github.com/bolah2009)
 
 ## 📝 License
 

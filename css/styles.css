@@ -33,8 +33,20 @@
 }
 
 .nav-logo {
-  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.nav {
+  background: #fff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  height: 48px;
+  left: 0;
   position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
 }
 
 .tech-section,
@@ -213,7 +225,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 5;
 }
 
 .clicky-header {
@@ -279,6 +291,7 @@
 
 .clicky-span {
   color: #aaa;
+  margin-left: 3px;
 }
 
 .hard-fork-container-a,
@@ -561,4 +574,29 @@
 
 .svg {
   display: none;
+}
+
+.header-headline-section:hover {
+  color: red;
+}
+
+.header-second-article:hover {
+  color: #000;
+}
+
+.latest-text:hover {
+  text-decoration: underline;
+}
+
+.inline-block-header:hover {
+  color: red;
+}
+
+.latest-deals:hover,
+.all-deals:hover {
+  color: #000;
+}
+
+.latest-anchor:hover {
+  color: #000;
 }
