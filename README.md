@@ -30,14 +30,14 @@ HTML
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://bimbola-tnw-clone.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/odin-tnw-clone.git
+git clone  https://github.com/bimbolabuari/odin-tnw-clone.git
 
 ```
 
